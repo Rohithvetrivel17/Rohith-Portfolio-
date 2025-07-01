@@ -1,58 +1,49 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Rohith Kumar Vetrivel | Project Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rohith Kumar Vetrivel | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
+
+<header>
     <h1>Rohith Kumar Vetrivel</h1>
-    <p>Manufacturing Engineering Co-op @ Doosan Bobcat | Industrial & Systems Engineering MS</p>
     <nav>
-      <a href="Rohith_Kumar_Vetrivel_Resume.pdf" target="_blank">📄 Resume</a>
-      <a href="mailto:rohithkumar1702@gmail.com">✉️ Contact</a>
+        <a href="Rohith_Kumar_Vetrivel_Resume.pdf" target="_blank">View Resume</a>
+        <div class="dropdown">
+            <button class="dropbtn">Contact</button>
+            <div class="dropdown-content">
+                <a href="mailto:rvetrivel@wisc.edu">rvetrivel@wisc.edu</a>
+                <a href="mailto:rohithkumar1702@gmail.com">rohithkumar1702@gmail.com</a>
+                <a href="tel:+14148013031">+1-414-801-3031</a>
+            </div>
+        </div>
     </nav>
-  </header>
-  <main>
-    <section class="project">
-      <button class="accordion">QR-Based Frame Tracking System</button>
-      <div class="panel">
-        <p><strong>Problem:</strong> Frame parts were often misplaced, causing rework and delays during production at Doosan Bobcat.</p>
-        <p><strong>What I did:</strong> Collaborated with Quality to develop a QR-based tracking system using SharePoint and Power Apps. Designed a fixture to hold frames and link scans to Apriso ERP.</p>
-        <p><strong>Hurdles:</strong> Misalignment between ERP and scanned data, and missed frame tagging by operators.</p>
-        <p><strong>Outcome:</strong> Achieved 100% frame traceability and reduced rework by 12%. Improved Apriso release accuracy to 100%.</p>
-      </div>
+</header>
+        <h1>Rohith Kumar Vetrivel</h1>
+        <nav>
+            <a href="Rohith_Kumar_Vetrivel_Resume.pdf" target="_blank">View Resume</a>
+        </nav>
+    </header>
 
-      <button class="accordion">Tooling Fixture Design (14 Fixtures)</button>
-      <div class="panel">
-        <p><strong>Problem:</strong> Delays due to inefficient assembly tooling and repeated component repositioning.</p>
-        <p><strong>What I did:</strong> Designed 14 fixtures using SolidWorks/Creo and applied GD&T. Validated ergonomics and usability via operator trials.</p>
-        <p><strong>Hurdles:</strong> CAD-operator misalignment and fixture fabrication delays.</p>
-        <p><strong>Outcome:</strong> Boosted line efficiency by 20%, saving ~2.3 hours/week of downtime.</p>
-      </div>
+    <main>
+        <section class="accordion">
+            <button class="accordion-button">Project 1: Fixture Design Optimization</button>
+            <div class="accordion-content">
+                <p>Designed 14 tooling fixtures using SolidWorks and Creo at Doosan Bobcat, improving line efficiency by 20% and cutting 137 min/week downtime.</p>
+            </div>
+        </section>
+        <section class="accordion">
+            <button class="accordion-button">Project 2: QR-Based Frame Tracking</button>
+            <div class="accordion-content">
+                <p>Led a cross-functional effort to implement a QR tracking system, achieving 100% traceability and reducing rework by 12%.</p>
+            </div>
+        </section>
+    </main>
 
-      <button class="accordion">Cost Reduction at MM Motors</button>
-      <div class="panel">
-        <p><strong>Problem:</strong> Overstock and dead inventory due to poor demand forecasting and unstructured BOM usage.</p>
-        <p><strong>What I did:</strong> Revamped BOM, used SAP MRP for demand forecasting, and launched incentive-based inventory clearance.</p>
-        <p><strong>Hurdles:</strong> Lack of team buy-in and outdated sales data.</p>
-        <p><strong>Outcome:</strong> Reduced dead stock by 70%, improved forecast accuracy by 68%, and boosted accessory sales by 50%.</p>
-      </div>
-
-      <button class="accordion">UK Road Accident Dashboard (Tableau)</button>
-      <div class="panel">
-        <p><strong>Problem:</strong> Lack of insights into accident patterns across the UK.</p>
-        <p><strong>What I did:</strong> Created a Tableau dashboard with KPI filters, heatmaps, severity and time-based clustering.</p>
-        <p><strong>Hurdles:</strong> Data noise and coordinate overlap in dense zones.</p>
-        <p><strong>Outcome:</strong> Enabled data-driven safety recommendations for regional planning and law enforcement prioritization.</p>
-      </div>
-    </section>
-  </main>
-  <footer>
-    <p>📞 +1-414-801-3031 | 📧 rohithkumar1702@gmail.com</p>
-  </footer>
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
