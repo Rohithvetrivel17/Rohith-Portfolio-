@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohith Kumar Vetrivel | Project Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #1c1c1c;
+            color: #e0e0e0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #2e2e2e;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+            color: #ffcc00;
+        }
+        nav {
+            background-color: #333;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px;
+        }
+        nav a {
+            color: #f0f0f0;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .accordion-btn {
+            background-color: #3a3a3a;
+            color: #ffffff;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            text-align: left;
+            border: none;
+            outline: none;
+            transition: 0.4s;
+            font-size: 18px;
+            border-bottom: 1px solid #444;
+        }
+        .active, .accordion-btn:hover {
+            background-color: #505050;
+        }
+        .accordion-content {
+            padding: 0 18px;
+            display: none;
+            background-color: #2a2a2a;
+            overflow: hidden;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2e2e2e;
+            color: #aaa;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Rohith Kumar Vetrivel | Project Portfolio</h1>
+</header>
+
+<nav>
+    <a href="Rohith_Kumar_Resume.pdf" target="_blank">📄 Resume</a>
+    <a href="mailto:rohithkumar1702@gmail.com">✉️ Connect</a>
+</nav>
+
+<div class="accordion">
+    
+    <button class="accordion-btn">QR-based Frame Tracking System</button>
+    <div class="accordion-content">
+        <p><b>Problem:</b> On the production floor at Doosan Bobcat, heavy frame parts were frequently misplaced due to manual tracking, leading to build errors, increased rework, and delayed pilot batch assembly.<br><br>
+<b>Vision:</b> Develop a real-time traceability system that ensures accurate frame location tracking throughout the assembly process.<br><br>
+<b>Action:</b> Collaborated with the Quality team and designed a QR-based frame cart identification system. I led the effort to analyze movement workflows, created a fixture to mount QR codes, and integrated it with Apriso MES. I validated the system through on-floor testing and operator feedback.<br><br>
+<b>Result:</b> Achieved 100% traceability, reduced rework by 12%, and eliminated pilot build errors. The system also improved Apriso release accuracy and was later scaled for broader use.<br><br>
+<b>Tools Used:</b> SolidWorks, Creo, Apriso, Power Apps.</p>
+    </div>
+    
+    <button class="accordion-btn">Time Study – CAT NPF Line</button>
+    <div class="accordion-content">
+        <p><b>Problem:</b> The New Product Frame (NPF) line at Bobcat was impacted by inaccurate cycle times and unbalanced workstations due to an ERP transition from SAP to Oracle.<br><br>
+<b>Vision:</b> Establish accurate standard times and balance operations to ensure smooth production and data integrity during ERP transition.<br><br>
+<b>Action:</b> Performed detailed time studies using stopwatch and MODAPTS across multiple CAT stations. Collected and analyzed task durations, consulted with operators, and mapped non-value-added activities.<br><br>
+<b>Result:</b> Standardized times were implemented, helping rebalance the workflow, improve takt time adherence by 14%, and ensure smoother integration into Oracle systems.<br><br>
+<b>Tools Used:</b> MODAPTS, Stopwatch time study, Oracle, Excel.</p>
+    </div>
+    
+    <button class="accordion-btn">Automated Inventory System – Power Apps</button>
+    <div class="accordion-content">
+        <p><b>Problem:</b> Remstar vertical storage trays held key inventory, but part locations were undocumented, leading to retrieval delays, search errors, and missed delivery deadlines.<br><br>
+<b>Vision:</b> Build a centralized, automated inventory system enabling easy part-tray mapping and real-time availability alerts.<br><br>
+<b>Action:</b> Independently designed and deployed a Power Apps solution integrated with SharePoint and barcode scanning. Built UI for input/output, added access controls, and configured automatic low-stock triggers.<br><br>
+<b>Result:</b> Reduced part retrieval time by 40%, eliminated manual logbooks, ensured 100% on-time availability of pilot parts, and improved inventory accuracy.<br><br>
+<b>Tools Used:</b> Power Apps, SharePoint, Excel connector, barcode reader.</p>
+    </div>
+    
+    <button class="accordion-btn">Cost Reduction at MM Motors</button>
+    <div class="accordion-content">
+        <p><b>Problem:</b> A large volume of dead stock accumulated due to outdated BOMs and over-ordering, affecting procurement budgets and warehouse space.<br><br>
+<b>Vision:</b> Restructure inventory planning using data-backed decision-making to cut waste and improve working capital.<br><br>
+<b>Action:</b> Audited BOM usage vs actual stock data from SAP. Cross-verified with updated part lists, eliminated redundant procurement, and collaborated with sales/service teams to promote stagnant inventory through bundled offers and incentives.<br><br>
+<b>Result:</b> Reduced dead stock by 70%, improved order cycles, and restructured planning cadence based on actual service usage and historical demand.<br><br>
+<b>Tools Used:</b> SAP, Excel, BOM Tracker, Stock Audit Framework.</p>
+    </div>
+    
+    <button class="accordion-btn">University Project – Facility Location Model</button>
+    <div class="accordion-content">
+        <p><b>Problem:</b> Companies often struggle to choose optimal facility locations when balancing fixed costs, capacity, and customer demand zones.<br><br>
+<b>Vision:</b> Create a scalable MILP model that minimizes logistics costs while satisfying capacity and demand constraints for a simulated company.<br><br>
+<b>Action:</b> Developed a MILP model using Python (PuLP) to evaluate facility location options. Integrated demand data and constraints into the solver. Built Tableau dashboards to visualize outputs and analyzed the effect of scenario shifts. Applied Newsvendor theory for demand fluctuation buffer.<br><br>
+<b>Result:</b> The simulation led to projected cost savings of $21M across five facility placement strategies. Provided insights into inventory buffers and transportation trade-offs.<br><br>
+<b>Tools Used:</b> Python (PuLP), Tableau, Excel, Newsvendor Model.</p>
+    </div>
+    
+</div>
+
+<footer>
+    © 2025 Rohith Kumar Vetrivel. All rights reserved.
+</footer>
+
+<script>
+    const acc = document.getElementsByClassName("accordion-btn");
+    for (let i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            const panel = this.nextElementSibling;
+            panel.style.display = panel.style.display === "block" ? "none" : "block";
+        });
+    }
+</script>
+
+</body>
+</html>
